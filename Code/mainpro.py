@@ -33,10 +33,10 @@ background-color:cover;
 langchain.verbose = False
 
 load_dotenv()
-api_token = 'ee62092a43b0478b9aefb8c82b6b1777'
-os.environ['OPENAI_API_KEY'] = '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'
+api_token = 'API-Key'
+os.environ['OPENAI_API_KEY'] = 'OPENAI_API_KEY'
 
-base_url = "https://api.assemblyai.com/v2"
+base_url = "base_url"
 
 headers = {
     "authorization": api_token,
